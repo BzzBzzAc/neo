@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../style/scroll.css"> -->
+    <link rel="stylesheet" href="../style/dropdown.css">
+    <link rel="stylesheet" href="../style/mounth_table.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button onclick="dropFunc()" class="btn-drop">Select month</button>
+        <div id="myDrop" class="drop-menu">
+            <a class="menu" href="#">January</a>
+            <a class="menu" href="#">February</a>
+        </div>
+    </div>
+    <div class="table_title"></div>
+    <div class="table-container">
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th scope="row" colspan="4" class="table_header_title">April</th>
+                </tr>
+                <tr>
+                    <th class="table_header">Day</th>
+                    <th class="table_header">Entrance & Exit</th>
+                    <th class="table_header">Hours of work</th>
+                    <th class="table_header">Salary per day</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>01.04</td>
+                    <td>08:00-14:00</td>
+                    <td class="hours">6</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>04.04</td>
+                    <td>13:15-21:15</td>
+                    <td class="hours">8</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>05.04</td>
+                    <td>13:15-20:45</td>
+                    <td class="hours">7.5</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>06.04</td>
+                    <td>08:15-15:00</td>
+                    <td class="hours">6.75</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>07.04</td>
+                    <td>13:30-20:00</td>
+                    <td class="hours">6.5</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>08.04</td>
+                    <td>08:30-15:00</td>
+                    <td class="hours">6.5</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>11.04</td>
+                    <td>13:15-21:00</td>
+                    <td class="hours">7.75</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>12.04</td>
+                    <td>13:30-21:00</td>
+                    <td class="hours">7.5</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>13.04</td>
+                    <td>08:30-14:15</td>
+                    <td class="hours">5.75</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>14.04</td>
+                    <td>14:15-19:00</td>
+                    <td class="hours">4.75</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>19.04</td>
+                    <td>13:15-20:30</td>
+                    <td class="hours">7.25</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>20.04</td>
+                    <td>08:15-14:15</td>
+                    <td class="hours">6</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>21.04</td>
+                    <td>15:30-20:00</td>
+                    <td class="hours">4.5</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>22.04</td>
+                    <td>09:00-15:00</td>
+                    <td class="hours">6</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>25.04</td>
+                    <td>WACATION</td>
+                    <td class="hours">8</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>26.04</td>
+                    <td>13:30-20:30</td>
+                    <td class="hours">7</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>27.04</td>
+                    <td>08:15-14:45</td>
+                    <td class="hours">6.5</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>28.04</td>
+                    <td>14:15-19:30</td>
+                    <td class="hours">5.25</td>
+                    <td class="pay"></td>
+                </tr>
+                <tr>
+                    <td>30.04</td>
+                    <td>08:30-14:30</td>
+                    <td class="s-hours"></td>
+                    <td class="s-pay"></td>
+                </tr>
+            </tbody>
+            <tfoot class="tfoor">
+                <tr>
+                    <td colspan="2" class="foot_span">Total</td>
+                    <td class="tHours"></td>
+                    <td class="tPay"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="calc-btn-container">
+        <button class="calc-btn">calculate</button>
+    </div>
+    <div class="outDiv" style="background-color: #ccc;"></div>
+    <!-- <script src="../script/sliderScript.js"></script> -->
+    <script src="../script/calculate.js"></script>
+</body>
+</html>
